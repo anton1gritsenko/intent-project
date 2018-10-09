@@ -50,7 +50,12 @@ body {
 .menu__links {
     text-align: end;
 }
-.menu__links:hover li{
+
+.menu__links:hover li {
+    color: red;
+}
+
+.menu__links:hover a {
     color: red;
 }
 
@@ -531,3 +536,42 @@ body {
     padding: 17px 0px;
 }
 
+/*RESPONSIVE*/
+/*@media screen and (max-width: 900px) {*/
+/*h1 {*/
+/*font-size: 200px!important;*/
+/*}*/
+/*}*/
+@media screen and (max-width: 1199px) {
+    .carousel-control.right {
+        margin: -24% 91%;
+    }
+
+    .carousel-control.left {
+        margin: -24% 1%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .text-padd h1 {
+        font-size: 27px;
+
+    }
+
+    .carousel-control.right {
+        margin: -18% 88%;
+    }
+
+    .carousel-control.left {
+        margin: -18% 1%;
+    }
+
+    .container__slider #thumbcarousel .item .thumb {
+        width: 46px;
+        height: auto;
+    }
+
+    #thumbcarousel {
+        height: 86px;
+    }
+}
